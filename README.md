@@ -5,4 +5,4 @@ _Nasceu do desejo de obedecer a um dos mandamentos do Senhor Jesus que se encont
 
 **Visite nosso Blog** 
 
-[trabalhadoresdaseara](https://mlssystem.github.io/trabalhadoresdaseara/) ![Jesus-o-Cordeiro-e-o-Leao](https://mlssystem.github.io/trabalhadoresdasear/blog.html)
+[trabalhadoresdaseara](https://mlssystem.github.io/trabalhadoresdaseara/blog.html) ![Jesus-o-Cordeiro-e-o-Leao](https://mlssystem.github.io/trabalhadoresdasear)
