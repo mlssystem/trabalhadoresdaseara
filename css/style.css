@@ -15,7 +15,7 @@ img {max-width: 100%;}
 /*=========== HELPERS ==========*/
 .radius {border-radius: 7px;}
 /* CABEÇALHO */
-.logo {width: 56px; height: 56px; float: left; background: url(logo-mobile.png) center center/56px no-repeat;
+.logo {width: 56px; height: 56px; float: left; background: url(../img/logo-mobile.png) center center/56px no-repeat;
 font-size: 0;}
 .btn-menu {width: 56px; height: 56px; float: right; text-align: center; color: #fff; border-radius:56px; cursor: pointer;}
 /* MENU */
@@ -27,8 +27,8 @@ font-size: 0;}
 .menu li a.ativo {color:#ff0000;}
 .menu li a:hover {border:1px solid #ff0000;}
 /* BANNER */
-.banner {background: url("bg.jpg") no-repeat fixed;}
-.banerblog {background: url("jesus-o-cordeiro-e-o-leao.jpg") no-repeat fixed;}
+.banner {background: url("../img/bg.jpg") no-repeat fixed;}
+.banerblog {background: url("../img/jesus-o-cordeiro-e-o-leao.jpg") no-repeat fixed;}
 .title {width: 100%;}
 .title h2 {font-size: 2.5em; color: #fff; font-weight: 700;}
 .title h3 {font-size: 1.5em; color: #fff;}
@@ -111,7 +111,7 @@ img, video {
 }
 
 .album-fotos li#foto01 {
-   background: url("1_joao_2_1.jpg") no-repeat;
+   background: url("../img/1_joao_2_1.jpg") no-repeat;
    background-position: 50% 50%; /*posicionando a imagem no centro*/
    background-size: 540px 540px; /*tamanho original da imagem*/
    background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/    
@@ -123,7 +123,7 @@ img, video {
 }
 
 .album-fotos li#foto02 {
-    background: url("1_joao_2_2.jpg") no-repeat;
+    background: url("../img/1_joao_2_2.jpg") no-repeat;
     background-position: 50% 50%; /*posicionando a imagem no centro*/
     background-size: 540px 540px; /*tamanho original da imagem*/
     background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/
@@ -135,7 +135,7 @@ img, video {
 }
 
 .album-fotos li#foto03 {
-    background: url("1_joao_2_3.jpg") no-repeat;
+    background: url("../img/1_joao_2_3.jpg") no-repeat;
     background-position: 50% 50%; /*posicionando a imagem no centro*/
     background-size: 540px 540px; /*tamanho original da imagem*/
     background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/
@@ -147,7 +147,7 @@ img, video {
 }
 
 .album-fotos li#foto04 {
-    background: url("1_joao_2_4.jpg") no-repeat;
+    background: url("../img/1_joao_2_4.jpg") no-repeat;
     background-position: 50% 50%; /*posicionando a imagem no centro*/
     background-size: 540px 540px; /*tamanho original da imagem*/
     background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/
@@ -159,7 +159,7 @@ img, video {
 }
 
 .album-fotos li#foto05 {
-    background: url("1_joao_2_5.jpg") no-repeat;
+    background: url("../img/1_joao_2_5.jpg") no-repeat;
     background-position: 50% 50%; /*posicionando a imagem no centro*/
     background-size: 540px 540px; /*tamanho original da imagem*/
     background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/
@@ -171,7 +171,7 @@ img, video {
 }
 
 .album-fotos li#foto06 {
-    background: url("1_joao_2_6.jpg") no-repeat;
+    background: url("../img/1_joao_2_6.jpg") no-repeat;
     background-position: 50% 50%; /*posicionando a imagem no centro*/
     background-size: 540px 540px; /*tamanho original da imagem*/
     background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/
@@ -183,7 +183,7 @@ img, video {
 }
 
 .album-fotos li#foto07 {
-    background: url("mateus_5_37.jpg") no-repeat;
+    background: url("../img/mateus_5_37.jpg") no-repeat;
     background-position: 50% 50%; /*posicionando a imagem no centro*/
     background-size: 540px 540px; /*tamanho original da imagem*/
     background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/
@@ -195,7 +195,7 @@ img, video {
 }
 
 .album-fotos li#foto08 {
-    background: url("romanos_13_13_14.jpg") no-repeat;
+    background: url("../img/romanos_13_13_14.jpg") no-repeat;
     background-position: 50% 50%; /*posicionando a imagem no centro*/
     background-size: 540px 540px; /*tamanho original da imagem*/
     background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/
@@ -208,7 +208,7 @@ img, video {
 
 .album-fotos li#foto09 {
 
-    background: url("galatas_5_22_23.jpg") no-repeat;
+    background: url("../img/galatas_5_22_23.jpg") no-repeat;
     background-position: 50% 50%; /*posicionando a imagem no centro*/
     background-size: 540px 540px; /*tamanho original da imagem*/
     background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/
@@ -220,7 +220,7 @@ img, video {
 }
 
 .album-fotos li#foto10 {
-    background: url("filipenses_4_13.jpg") no-repeat;
+    background: url("../img/filipenses_4_13.jpg") no-repeat;
     background-position: 50% 50%; /*posicionando a imagem no centro*/
     background-size: 540px 540px; /*tamanho original da imagem*/
     background-color: #ffffff; /*fazendo com que imagem só apareça quando passar o mouse*/
@@ -233,7 +233,7 @@ img, video {
 /* ========== MOBILE FIRST ==========*/
 /* SMALL DEVICES - SMARTPHONES */
 @media screen and (min-width: 480px) {
-.logo {width: 214px; background: url("logo.png") center center/214px no-repeat;}
+.logo {width: 214px; background: url("../img/logo.png") center center/214px no-repeat;}
 .btn {font-size: 2em;}
 .servico .album-fotos {width: 100%; margin: auto;}
 .blog img {width: 100%; margin: auto;}

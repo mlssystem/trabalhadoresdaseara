@@ -1,0 +1,73 @@
+#treinando {
+    /*background-image: url(../img/bg.jpg);*/
+    background-color: #ff0000;
+    border-collapse: collapse;
+    border:1px solid #ccc;
+    border-spacing:0px;
+    border-spacing: 0px; /*usado para tirar os espaços entre as bordas dos dados*/
+    margin-left: auto; /*usando o margin tanto para o left quanto para o right ele ficará centralizado*/
+    margin-right: auto;
+    line-height: 12px;
+    width: 100%;
+}
+
+#treinando td {
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+    width: 100%;
+}
+
+
+#treinando caption { /*configurando o títula da tabela*/
+    font-family: 'FonteLogo', sans-serif;    
+    color: #000;
+    font-size: 13pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#treinando caption span { /*configurando uma parte do título*/
+    font-family: 'FonteLogo', sans-serif;
+    display: block; /*mostrar como bloco flutuante*/
+    float: right; /*fazendo flutuar a direita*/
+    /*color: #e7cc71;*/
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#treinando tbody tr td span-voz  { /*configurando uma parte do título*/
+    font-family: 'FonteLogo', sans-serif;
+    font-weight: bold;
+    /*display: block; /*mostrar como bloco flutuante*/
+    /*float: right; /*fazendo flutuar a direita*/
+    /*color: #e7cc71;*/
+    color: black;
+    font-size: 10pt;
+    padding-bottom: 10px;
+    /*margin-top: 10px;*/
+}
+
+@media screen and (min-width: 480px) {
+.logo {width: 214px; background: url(../img/logo.png) center center/214px no-repeat;}
+.btn {font-size: 2em;}
+}
+@media screen and (max-width: 700px){
+    #treinando tbody td{ 
+        width: 100%;
+        display: block;
+    }
+} 
+
+@media screen and (min-width: 700px) {
+    #treinando tbody td{ 
+        width: 50%;
+        float: left;
+        padding: 2% 2%; 
+    }
+}
+
+
