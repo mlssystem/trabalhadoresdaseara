@@ -1,4 +1,9 @@
-/*============= RESET ============*/
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
 * {
     /*margin: 0px;*/
     font-size: 100%; 
@@ -123,10 +128,12 @@ img {max-width: 100%;
   }
 .btn-cadastrar { 
     color: #000000;
+    text-align: center;
   }
 .btn-sobre { 
     color:#fff ; 
     margin-top: 2%;
+    text-align: center;
   }
 /* SERVIÇOS */
 .servico {
@@ -213,7 +220,9 @@ img {max-width: 100%;
     cursor: pointer; 
     margin-top: 2%; 
   }
-/* RODAPÉ */
+
+
+/*#####  FOOTER  #####*/
 .social-icons a {
     font-size: 1.5em; 
     color: rgba(255,255,255,0.7); 
@@ -228,7 +237,13 @@ img {max-width: 100%;
 .copyright {
     color: rgba(255, 255, 255, 0.7); 
     margin-top:2%;
-  }
+  } 
+
+.mls {
+    font-family: 'FonteLogo';
+}
+/*#####  FIM FOOTER  #####*/
+
 
 /*=================FOTO LEGENDA==========-*/
 img, video {
@@ -372,6 +387,7 @@ img, video {
     background-position: 0px 0px; /*vai mostrar na parte de cima da tela, ou seja, dar um zom*/
     background-size: 200px 200px; /*volta a mostrar a imagem menor*/
 }
+
 /* ========== MOBILE FIRST ==========*/
 /* SMALL DEVICES - SMARTPHONES */
 @media screen and (min-width: 480px) {
@@ -431,6 +447,7 @@ img, video {
         float: right; 
         margin-top: 0; 
       }
+
     .servico {width: 32%; 
       }
     .servico:nth-child(2){
