@@ -5,4 +5,6 @@ _Nasceu do desejo de obedecer a um dos mandamentos do Senhor Jesus que se encont
 
 _Aproveitando a oportunidade concedida por essa plataforma abençoada, estou disponibilizando online e compartilhando._
 
-[trabalhadoresdaseara](https://mlssystem.github.io/trabalhadoresdaseara/blog.html) ![](https://github.com/mlssystem/trabalhadoresdaseara/blob/master/img/logo.png)
+[trabalhadoresdaseara](https://mlssystem.github.io/trabalhadoresdaseara/blog.html) 
+
+![](https://github.com/mlssystem/trabalhadoresdaseara/blob/master/img/logo.png)
