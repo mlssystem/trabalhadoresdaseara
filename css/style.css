@@ -1,0 +1,245 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+#mls {
+    font-family: 'FonteLogo';
+}
+
+.mls {
+    font-family: 'FonteLogo';
+}
+
+.versiculos {
+  text-align: center;
+  color: #ff0000;
+  font-style: italic;
+}
+
+a.ref-versiculos {
+  font-size: 1em;
+  color: blue;
+}
+
+#bg-dark-4 {
+  /*background: url("../img/lion-asas2.jpg") no-repeat;*/
+  /*background-color: #000;*/
+  width: 100%;
+}
+
+.bg-dark-2 {
+  background: url("../img/bg.jpg") no-repeat;
+  width: 100%;
+}
+
+img#bg-dark-3 {
+  /*background: url("../img/bg-dark-3.jpg") no-repeat;*/
+  width: 100%;
+}
+figure.foto-legenda{ /*quando tiver o parametro (class) será usado a tag, um ponto (.) e o nome da classe*/
+    position: relative; /*como figure eh um objeto container deixando como posição relativa ele vai obedecer o olcar em que foi colocado o código*/
+    border: 8px solid white; /*largura tipo cor*/
+    box-shadow: 1px 1px 4px black; /*criando sombra na borda; deslocamento horizontal vertical e espalhamento*/
+}
+
+figure.foto-legenda img#bg-dark-3{ /*deixando a imagem do tamnho da borda*/
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption{ /*criando estilo para legenda*/
+    /*opacity: 0; a legenda não aparece mas será criando um efeito houver, para aparecer quando passar o mouse*/
+    position: absolute; /*como figcaption eh filho do figure; tendo posição absoluta ficará na posição zero ou seja em cima*/
+    top: 0px; /*a legenda vai ficar em cima*/
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%; /*largura do fundo*/
+    height: 100%; /*altura do fundo*/
+    padding: 10px; /*criando um espaço ou margem*/
+    box-sizing: border-box; /*criando um box dentro da borda*/
+    transition: opacity 1s; /*tempo determinado para mostrar a legenda*/
+}
+
+/*figure.foto-legenda:hover figcaption{
+    opacity:1; /*efeito criado para aparecer quando passar o mouse por cima, e 1 significa 100% na opacidade
+}*/
+
+#iniciando {
+  margin-top: 130px;
+}
+
+#iniciando-2 {
+  height: 100px;
+}
+
+#iniciando-3 {
+  height: 10px;
+}
+
+.logo {
+  width: 56px; 
+  height: 56px; 
+  float: left; 
+  background: url(../img/logo-mobile.png) center center/56px no-repeat;
+  font-size: 0;
+}
+
+/*######## BANNER ##########*/
+.banner {
+  border: 2px solid black;
+}
+
+.banerblog-bg-dark-3 {
+    background: url("../img/bg-dark-3.jpg") no-repeat fixed;
+    height: 400px;
+}
+
+.banerblog {
+    background: url("../img/jesus-o-cordeiro-e-o-leao.jpg") no-repeat fixed;
+    height: 400px;
+}
+.container-img {
+    width: 100%; 
+    padding: 3% 3%; 
+  }
+
+div.banner-index {
+    margin: 0;
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 2.1;
+    text-align: center;
+    position: absolute;
+    top: 52em;
+    left: 35px;
+    width: 15em; 
+}
+
+div.banner-index p {
+    margin: 0;
+    padding: .1em .1em;
+    font-family: Arial, sans-serif;
+    /*background-color: #000;*/
+    background-image: url("../img/bg1.jpg");
+    /*border: thin outset yellow;*/
+    color: black;
+    }
+
+div.banner-index p {
+    margin: 0;
+    padding: .1em .1em;
+    font-family: Arial, sans-serif;
+    /*background-color: #000;*/
+    background-image: url("../img/bg1.jpg");
+    /*border: thin outset yellow;*/
+    color: black;
+    }
+
+div.banner-index a, div.banner-index em { 
+    display: block; 
+    margin: 0 0.5em 
+}
+
+div.banner-index a, div.banner em { 
+    border-top: 2px groove rgb(245,225,130);
+}
+
+div.banner-index a:first-child { 
+    border-top: none;
+}
+
+div.banner-index em { 
+    color: blue; 
+}
+
+div.banner-index a:link { 
+    text-decoration: none; color: white; 
+}
+
+div.banner-index a:visited { 
+    text-decoration: none; color: #e7cc71; 
+}
+
+div.banner-index a:hover { 
+    /*background-image: url("../img/dourado-bs.jpg");*/
+    background-color: #fff;
+    color: #ff0000; 
+}
+
+div.banner {
+    margin: 0;
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 2.1;
+    text-align: center;
+    position: absolute;
+    top: 22em;
+    left: 35px;
+    width: 15em; 
+    }
+
+div.banner p {
+    margin: 0;
+    padding: .1em .1em;
+    font-family: Arial, sans-serif;
+    /*background-color: #000;*/
+    background-image: url("../img/bg1.jpg");
+    /*border: thin outset yellow;*/
+    color: black;
+    }
+
+div.banner a, div.banner em { 
+    display: block; 
+    margin: 0 0.5em 
+}
+
+div.banner a, div.banner em { 
+    border-top: 2px groove rgb(245,225,130);
+}
+
+div.banner a:first-child { 
+    border-top: none;
+}
+
+div.banner em { 
+    color: blue; 
+}
+
+div.banner a:link { 
+    text-decoration: none; color: white; 
+}
+
+div.banner a:visited { 
+    text-decoration: none; color: #e7cc71; 
+}
+
+div.banner a:hover { 
+    /*background-image: url("../img/dourado-bs.jpg");*/
+    background-color: #fff;
+    color: #ff0000; 
+}
+
+@media screen and (max-width: 760px) {
+  .banner {
+    visibility: hidden;
+  }
+  .banner-index {
+    visibility: hidden;
+  }
+
+  img#bg-dark-3 {
+    width: 100%;
+  }
+} 
+
+@media screen and (min-width: 480px) {
+  .logo {
+      width: 178px; 
+      background: url("../img/logo-240.png") center center/178px no-repeat;
+  }
+  img#bg-dark-3 {
+    width: 100%;
+  }
+}
