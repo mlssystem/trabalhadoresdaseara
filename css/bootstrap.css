@@ -397,6 +397,13 @@ h6, .h6 {
   color: #fff;
 }
 
+.lead-arquivos {
+  font-size: 1.25rem;
+  font-weight: 378;
+  /*text-shadow: 2px 2px #000;*/
+  color: #fff;
+}
+
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
