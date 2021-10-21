@@ -3,6 +3,9 @@
     font-family: 'FonteLogo';
     src: url("../fonts/bubblegum-sans-regular.otf");
 }
+img {
+    width: 100%;
+}
 /*Azul color: #1e7bc1;*/
 .FonteLogo {
     font-family: 'FonteLogo';
