@@ -18,6 +18,14 @@ img.tigres-asiaticos {
     color: red;
     text-shadow: 1px 1px 1px#000;
 }
+.destaque-h2{
+    color: red;
+    text-shadow: 1px 1px 1px#000;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom: 21px;
+}
+
 
 /*.active-link-banner {
     color: #000;
@@ -196,6 +204,15 @@ div.banner a:hover {
 
   img#bg-dark-3 {
     width: 100%;
+  }
+  .destaque-h2{
+    color: red;
+    text-shadow: 1px 1px 1px#000;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 14px;
   }
 } 
 
