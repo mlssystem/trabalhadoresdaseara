@@ -63,9 +63,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .h-250 { height: 250px; }
 
-@media (min-width: 768px) {
+@media (min-width: 668px) {
   .h-md-250 { height: 250px; }
 }
+
+@media (min-width: 368px) {
+  #blog-h1-hdi {font-size: 30px;}
+}
+
 
 /* Pagination */
 .blog-pagination {
