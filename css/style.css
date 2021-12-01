@@ -25,6 +25,13 @@ img.tigres-asiaticos {
     margin-bottom: 21px;
 }
 
+.destaque-h3{
+    line-height: 35px;
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 /*.active-link-banner {
     color: #000;
