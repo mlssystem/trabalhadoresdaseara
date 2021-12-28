@@ -160,8 +160,9 @@ div.banner p {
     padding: .1em .1em;
     font-family: 'Josefin Sans', sans-serif;
     /*background-color: #000;*/
-    background-image: url("../img/bg1.jpg");
+    /*background-image: url("../img/bg1.jpg");*/
     /*border: thin outset yellow;*/
+    background: linear-gradient(red, black);
     color: black;
     }
 
