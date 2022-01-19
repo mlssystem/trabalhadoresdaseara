@@ -18,8 +18,8 @@ img.tigres-asiaticos {
     text-shadow: 1px 1px 1px#000;
 }
 .destaque-h2{
-    color: red;
-    text-shadow: 1px 1px 1px#000;
+    color: #8c8c8c;
+    text-shadow: 1px 1px #000;
     line-height: 35px;
     margin-top: 30px;
     margin-bottom: 21px;
@@ -29,6 +29,13 @@ img.tigres-asiaticos {
     line-height: 35px;
     margin-top: 2px;
     font-size: 20px;
+    font-weight: bold;
+}
+
+.destaque-h4{
+    line-height: 35px;
+    margin-top: 2px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -48,13 +55,19 @@ img.tigres-asiaticos {
 
 .versiculos {
   text-align: center;
-  color: #ff0000;
+  color: #e7cc71;
+  opacity: 0.9;
   font-style: italic;
 }
 
 a.ref-versiculos {
   font-size: 1em;
-  color: blue;
+  color: 8c8c8c;
+  text-shadow: 0.5px 0.5px #000;
+}
+
+a.ref-versiculos:hover {
+  color: #ff0000;
 }
 
 #bg-dark-4 {
@@ -113,9 +126,9 @@ figure.foto-legenda figcaption{ /*criando estilo para legenda*/
 }
 
 .logo {
-  width: 56px; 
-  height: 56px; 
-  float: left; 
+  width: 56px;
+  height: 56px;
+  float: left;
   background: url(../img/logo-mobile.png) center center/56px no-repeat;
   font-size: 0;
 }
@@ -132,11 +145,12 @@ figure.foto-legenda figcaption{ /*criando estilo para legenda*/
 
 .banerblog {
     background: url("../img/jesus-o-cordeiro-e-o-leao.jpg") no-repeat fixed;
+    opacity: 0.7;
     height: 400px;
 }
 .container-img {
-    width: 100%; 
-    padding: 3% 3%; 
+    width: 100%;
+    padding: 3% 3%;
 }
 
 .logo-lateral {
@@ -152,7 +166,7 @@ div.banner {
     position: absolute;
     top: 48em;
     left: 35px;
-    width: 15em; 
+    width: 15em;
     }
 
 div.banner p {
@@ -161,48 +175,49 @@ div.banner p {
     font-family: 'Josefin Sans', sans-serif;
     /*background-color: #000;*/
     /*background-image: url("../img/bg1.jpg");*/
-    /*border: thin outset yellow;*/
+    /*border: thin outset yellow;
+    background: #8c8c8c;*/
     background: linear-gradient(red, black);
     color: black;
     }
 
-div.banner a, div.banner em { 
-    display: block; 
-    margin: 0 0.5em 
+div.banner a, div.banner em {
+    display: block;
+    margin: 0 0.5em
 }
 
-div.banner a, div.banner em { 
+div.banner a, div.banner em {
     border-top: 2px groove rgb(245,225,130);
 }
 
-div.banner a:first-child { 
+div.banner a:first-child {
     border-top: none;
 }
 
-div.banner em { 
+div.banner em {
     color: #000;
     text-shadow: 0.5px 1.3px 0.8px #e7cc71;
     font-size: 14px;
     font-weight: normal;
-    font-weight: 700px; 
+    font-weight: 700px;
 }
 
-div.banner a:link { 
-    text-decoration: none; color: white; 
+div.banner a:link {
+    text-decoration: none; color: white;
 }
 
-div.banner a:visited { 
-    text-decoration: none; 
-    color: #e7cc71; 
+div.banner a:visited {
+    text-decoration: none;
+    color: #e7cc71;
 }
 
-div.banner a:hover { 
+div.banner a:hover {
     /*background-image: url("../img/dourado-bs.jpg");
     background-color: #f5f5f5;*/
-    color: #000; 
+    color: #000;
     padding: auto;
     width: auto;
-}    
+}
 @media screen and (max-width: 760px) {
   .banner {
     visibility: hidden;
@@ -220,11 +235,11 @@ div.banner a:hover {
     margin-top: 30px;
     margin-bottom: 14px;
   }
-} 
+}
 
 @media screen and (min-width: 480px) {
   .logo {
-      width: 178px; 
+      width: 178px;
       background: url("../img/logo-240.png") center center/178px no-repeat;
   }
   img#bg-dark-3 {
