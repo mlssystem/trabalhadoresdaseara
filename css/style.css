@@ -55,7 +55,8 @@ img.tigres-asiaticos {
 
 .versiculos {
   text-align: center;
-  color: #e7cc71;
+  /*color: #e7cc71;*/
+  color: #FF0000;
   opacity: 0.9;
   font-style: italic;
 }
