@@ -223,6 +223,9 @@ div.banner a:hover {
   .banner {
     visibility: hidden;
   }
+  img {
+    width: 100%;
+  }
 
   img#bg-dark-3 {
     width: 100%;
