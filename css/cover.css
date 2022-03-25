@@ -10,8 +10,9 @@ a:hover {
 }
 
 .btn-secondary-arquivos {
-  color: #fff;
-  text-shadow: 2px 2px #000;
+  font-family: 'Courier', monospace;
+  color: #FF0000;
+  text-shadow: .5px .5px .5px #000;
   background-color: #f5f5f5;
   border-color: #f5f5f5;
 }
@@ -19,13 +20,11 @@ a:hover {
 .btn-secondary-arquivos:hover {
   color: #000;
   text-shadow: none;
-  background-image: url("../img/bg1.jpg");
   border-color: #ff0000;
 }
 
 .btn-secondary-arquivos:focus, .btn-secondary-arquivos.focus {
   color: #000;
-  background-image: url("../img/bg1.jpg");
   border-color: #ff0000;
   box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
 }
@@ -40,12 +39,12 @@ a:hover {
 .show > .btn-secondary-arquivos.dropdown-toggle {
   color: #000;
   background-color: #ff0000;
-  border-color: #4e555b;
+  border-color: #FFF;
 }
 
 .btn-secondary-arquivos:not(:disabled):not(.disabled):active:focus, .btn-secondary-arquivos:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary-arquivos.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
 }
 
 /*
@@ -55,10 +54,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  /*background-color: #333;
-  background: url("../img/jesus-o-cordeiro-e-o-leao.jpg") no-repeat;
-  background: url("../img/bg-arquivos.jpg") no-repeat;*/
-  background: url("../img/bg1.jpg") no-repeat;
+  background: linear-gradient(45deg, #FF0000, #000000);
 }
 
 body {
@@ -74,7 +70,9 @@ body {
 }
 
 .cover-heading {
-  text-shadow: 1px 2px black;
+  font-family: 'Courier', monospace;
+  margin-top: 78px;
+  text-shadow: 1px 2px #FF0000;
 }
 
 /*
