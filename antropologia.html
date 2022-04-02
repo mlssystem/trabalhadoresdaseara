@@ -96,9 +96,14 @@
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>-->
-            </div>
-        </nav>
-        <!-- FIM DO MENU DE OPÇÕES -->
+            </div>            
+            <button class="btn-alternar"></button>
+        </nav>                   
+        <!-- THEME -->
+        <script>const btn=document.querySelector(".btn-alternar");const theme=document.querySelector("#link-tema");btn.addEventListener("click",function(){if(theme.getAttribute("href")=="css/tema-claro.css"){theme.href="css/tema-escuro.css";}else{theme.href="css/tema-claro.css";}});</script>        
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>$(".btn-menu").click(function(){$(".menu").show();});$(".btn-close").click(function(){$(".menu").hide();});</script> 
         <p id="iniciando"></p>
         <div>
             <figure class="foto-legenda">

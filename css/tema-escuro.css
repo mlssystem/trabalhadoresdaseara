@@ -32,5 +32,4 @@ button.bg-white {color: #fff;}
 footer {width: 100%; background: linear-gradient(#2F2F2F, #4c0c0d) !important;}
 span.title-h1 {background: -webkit-linear-gradient(#ffffff, #c3c3c3); -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}
 @media screen and (max-width: 860px) {
-.banner {background: url(../img/bg-informacao-mobile.webp) no-repeat fixed;}
 .banner .container {margin-top: 0px; width: 500px;}}
