@@ -3,14 +3,29 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Trabalhadores da Seara">
+    <meta name="keywords" content="Trabalhadores da Seara">
     <meta name="author" content="Marcus, Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
     <title>Blog TS</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://mlssystem.github.io/trabalhadoresdaseara/index.html/">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/tema-claro.css" id="link-tema">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/icon.ico">
-    <style>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Trabalhadores da Seara">
+    <meta property="og:url" content="https://mlssystem.github.io/trabalhadoresdaseara/index.html"/>
+    <meta property="og:site_name" content="Trabalhadores da Seara">
+    <meta property="og:image" content="https://mlssystem.github.io/trabalhadoresdaseara/img/icon.ico"/>
+    <meta property="og:image:width" content="64">
+    <meta property="og:image:height" content="64">
+    <meta property="og:image:alt" content="icone-ts">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:description" content="Trabalhadores da Seara">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Marcus, Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <style> 
       .bd-placeholder-img {
       font-size: 1.125rem;
       text-anchor: middle;
@@ -29,7 +44,6 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="css/blog.css" rel="stylesheet">
 </head>
-
 <body class="d-flex flex-column h-100">
     <!--CONTAINER-->
     <div class="container">
@@ -67,9 +81,14 @@
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-secondary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>-->
-            </div>
-        </nav>
-
+            </div>            
+            <button class="btn-alternar"></button>
+        </nav>                   
+        <!-- THEME -->
+        <script>const btn=document.querySelector(".btn-alternar");const theme=document.querySelector("#link-tema");btn.addEventListener("click",function(){if(theme.getAttribute("href")=="css/tema-claro.css"){theme.href="css/tema-escuro.css";}else{theme.href="css/tema-claro.css";}});</script>        
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>$(".btn-menu").click(function(){$(".menu").show();});$(".btn-close").click(function(){$(".menu").hide();});</script> 
         <p id="iniciando"></p>
         <div class="text-white banerblog container-img">
             <div id="cgc" class="col-md-6 px-0">
