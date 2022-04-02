@@ -1,252 +1,56 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'FonteLogo';
-    src: url("../fonts/bubblegum-sans-regular.otf");
-}
-img.tigres-asiaticos {
-    width: 100%;
-}
-/*Azul color: #1e7bc1;*/
-.FonteLogo {
-    font-family: 'FonteLogo';
-    font-size: 21px;
-    color: #000;
-    text-shadow: 1px 1px #ff0000;
-}
-.active-link {
-    color: red;
-    text-shadow: 1px 1px 1px#000;
-}
-.destaque-h2{
-    color: #ff0000;
-    text-shadow: 1px 1px #000;
-    line-height: 35px;
-    margin-top: 30px;
-    margin-bottom: 21px;
-}
-
-.destaque-h3{
-    line-height: 35px;
-    margin-top: 2px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.destaque-h4{
-    line-height: 35px;
-    margin-top: 2px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
-/*.active-link-banner {
-    color: #000;
-    text-shadow: 1px 1px 1px#ff0000;
-}*/
-
-#mls {
-    font-family: 'FonteLogo';
-}
-
-.mls {
-    font-family: 'FonteLogo';
-}
-
-.versiculos {
-  text-align: center;
-  /*color: #e7cc71;*/
-  color: #FF0000;
-  opacity: 0.9;
-  font-style: italic;
-}
-
-a.ref-versiculos {
-  font-size: 1em;
-  color: 8c8c8c;
-  text-shadow: 0.5px 0.5px #000;
-}
-
-a.ref-versiculos:hover {
-  color: #ff0000;
-}
-
-#bg-dark-4 {
-  /*background: url("../img/lion-asas2.jpg") no-repeat;*/
-  /*background-color: #000;*/
-  width: 100%;
-}
-
-.bg-dark-2 {
-  background: url("../img/bg.jpg") no-repeat;
-  width: 100%;
-}
-
-img#bg-dark-3 {
-  /*background: url("../img/bg-dark-3.jpg") no-repeat;*/
-  width: 100%;
-}
-figure.foto-legenda{ /*quando tiver o parametro (class) será usado a tag, um ponto (.) e o nome da classe*/
-    position: relative; /*como figure eh um objeto container deixando como posição relativa ele vai obedecer o olcar em que foi colocado o código*/
-    border: 8px solid white; /*largura tipo cor*/
-    box-shadow: 1px 1px 4px black; /*criando sombra na borda; deslocamento horizontal vertical e espalhamento*/
-}
-
-figure.foto-legenda img#bg-dark-3{ /*deixando a imagem do tamnho da borda*/
-    width: 100%;
-    height: 100%;
-}
-
-figure.foto-legenda figcaption{ /*criando estilo para legenda*/
-    /*opacity: 0; a legenda não aparece mas será criando um efeito houver, para aparecer quando passar o mouse*/
-    position: absolute; /*como figcaption eh filho do figure; tendo posição absoluta ficará na posição zero ou seja em cima*/
-    top: 0px; /*a legenda vai ficar em cima*/
-    background-color: rgba(0,0,0,.4);
-    color: white;
-    width: 100%; /*largura do fundo*/
-    height: 100%; /*altura do fundo*/
-    padding: 10px; /*criando um espaço ou margem*/
-    box-sizing: border-box; /*criando um box dentro da borda*/
-    transition: opacity 1s; /*tempo determinado para mostrar a legenda*/
-}
-
-/*figure.foto-legenda:hover figcaption{
-    opacity:1; /*efeito criado para aparecer quando passar o mouse por cima, e 1 significa 100% na opacidade
-}*/
-
-#iniciando {
-  margin-top: 130px;
-}
-
-#iniciando-2 {
-  height: 100px;
-}
-
-#iniciando-3 {
-  height: 10px;
-}
-
-.logo {
-  width: 56px;
-  height: 56px;
-  float: left;
-  background: url(../img/logo-mobile.png) center center/56px no-repeat;
-  font-size: 0;
-}
-
+@font-face {font-family: 'FonteLogo'; src: url("../fonts/bubblegum-sans-regular.otf");}
+#cgc {float: right;}
+#cgc p {font-size: 20px;}
+img.tigres-asiaticos {width: 100%;}
+.FonteLogo {font-family: 'FonteLogo'; font-size: 21px; color: #000; text-shadow: 1px 1px #ff0000;}
+.active-link {color: red; text-shadow: 1px 1px 1px#000;}
+.destaque-h2{color: #ff0000; text-shadow: 1px 1px #000; line-height: 35px; margin-top: 30px; margin-bottom: 21px;}
+.destaque-h3{line-height: 35px; margin-top: 2px; font-size: 20px; font-weight: bold;}
+.destaque-h4{line-height: 35px; margin-top: 2px; font-size: 18px; font-weight: bold;}
+#mls {font-family: 'FonteLogo';}
+.mls {font-family: 'FonteLogo';}
+.versiculos {text-align: center; color: #FF0000; opacity: 0.9; font-style: italic;}
+a.ref-versiculos {font-size: 1em; color: 8c8c8c; text-shadow: 0.5px 0.5px #000;}
+a.ref-versiculos:hover {color: #ff0000;}
+#bg-dark-4 {width: 100%;}
+.bg-dark-2 {background: url("../img/bg.jpg") no-repeat; width: 100%;}
+img#bg-dark-3 {width: 100%;}
+#iniciando {margin-top: 130px;}
+#iniciando-2 {height: 100px;}
+#iniciando-3 { height: 10px;}
+.logo {width: 56px; height: 56px; float: left; background: url(../img/logo-mobile.png) center center/56px no-repeat; font-size: 0;}
 /*######## BANNER ##########*/
-.banner {
-  border: 2px solid black;
-}
-
-.banerblog-bg-dark-3 {
-    background: url("../img/bg-dark-3.jpg") no-repeat fixed;
-    height: 400px;
-}
-
-.banerblog {
-    background: url("../img/jesus-o-cordeiro-e-o-leao.jpg") no-repeat fixed;
-    opacity: 0.7;
-    height: 400px;
-}
-.container-img {
-    width: 100%;
-    padding: 3% 3%;
-}
-
-.logo-lateral {
-    padding: 7px;
-}
-
-div.banner {
-    margin: 0;
-    font-size: 80%;
-    font-weight: bold;
-    line-height: 2.1;
-    text-align: center;
-    position: absolute;
-    top: 58em;
-    left: 35px;
-    width: 15em;
-    }
-
-div.banner p {
-    margin: 0;
-    padding: .1em .1em;
-    font-family: 'Josefin Sans', sans-serif;
-    /*background-color: #000;*/
-    /*background-image: url("../img/bg1.jpg");*/
-    /*border: thin outset yellow;
-    background: #8c8c8c;*/
-    background: linear-gradient(red, black);
-    color: black;
-    }
-
-div.banner a, div.banner em {
-    display: block;
-    margin: 0 0.5em
-}
-
-div.banner a, div.banner em {
-    border-top: 2px groove rgb(245,225,130);
-}
-
-div.banner a:first-child {
-    border-top: none;
-}
-
-div.banner em {
-    color: #000;
-    text-shadow: 0.5px 1.3px 0.8px #e7cc71;
-    font-size: 14px;
-    font-weight: normal;
-    font-weight: 700px;
-}
-
-div.banner a:link {
-    text-decoration: none; color: white;
-}
-
-div.banner a:visited {
-    text-decoration: none;
-    color: #e7cc71;
-}
-
-div.banner a:hover {
-    /*background-image: url("../img/dourado-bs.jpg");
-    background-color: #f5f5f5;*/
-    color: #000;
-    padding: auto;
-    width: auto;
-}
-@media screen and (max-width: 760px) {
-  .banner {
-    visibility: hidden;
-  }
-  img {
-    width: 100%;
-  }
-
-  img#bg-dark-3 {
-    width: 100%;
-  }
-  .destaque-h2{
-    color: red;
-    text-shadow: 1px 1px 1px#000;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 14px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .logo {
-      width: 178px;
-      background: url("../img/logo-240.png") center center/178px no-repeat;
-  }
-  img#bg-dark-3 {
-    width: 100%;
-  }
-}
+.banner {border: 2px solid black;}
+.banerblog-bg-dark-3 {background: url("../img/bg-dark-3.jpg") no-repeat fixed; height: 400px;}
+.banerblog {background: url("../img/jesus-o-cordeiro-e-o-leao.jpg") no-repeat fixed; height: 400px;}
+.container-img {width: 100%; padding: 3% 3%;}
+div.banner {margin: 0; font-size: 80%; font-weight: bold; line-height: 2.1; text-align: center; position: absolute; top: 58em; left: 35px; width: 15em;}
+div.banner p { margin: 0; padding: .1em .1em; font-family: 'Josefin Sans', sans-serif; background: linear-gradient(red, black); color: black;}
+div.banner a, div.banner em {display: block; margin: 0 0.5em}
+div.banner a, div.banner em {border-top: 2px groove rgb(245,225,130);}
+div.banner a:first-child {border-top: none;}
+div.banner em {color: #000; text-shadow: 0.5px 1.3px 0.8px #e7cc71; font-size: 14px; font-weight: normal; font-weight: 700px;}
+div.banner a:link {text-decoration: none; color: white;}
+div.banner a:visited {text-decoration: none; color: #e7cc71;}
+div.banner a:hover {color: #000; padding: auto; width: auto;}
+/* FOOTER */
+#logo-white {width: 135px; height: 53px; background: url("../img/logo-white.png") no-repeat;}
+footer {width: 100%; background: linear-gradient(#ff0000, #4c0c0d);}
+footer .row {padding: 2%; width: 100%;}
+#top-footer {float: right; margin-right: 20px; margin-left: 25px;}
+#top-footer {Width: 42px; height: 42px; background: url("../img/top.png") no-repeat;}
+/* MEDIA SCREEN  */
+@media screen and (max-width: 860px) {.banerblog {background: url(../img/jesus-o-cordeiro-e-o-leao-mobile.jpg) no-repeat fixed;}
+.bg-title h3 {font-size: 1.5em; color: #fff; line-height: 1.7em; font-family: 'Courier Prime', monospace;}
+.banner .container {margin-top: 0px; width: 500px;}
+.buttons {width: 100%; margin-right: auto; margin-top: 0; margin-left: auto;}}
+@media screen and (max-width: 760px) { .banner {visibility: hidden;}
+#cgc {text-align: center !important;}
+#cgc p {font-size: 18px; margin-top: 80px !important;}
+#top-footer {width: 42px; height: 42px; background: url("../img/top.png") no-repeat;}
+img {width: 100%;}
+img#bg-dark-3 {width: 100%;}}
+.destaque-h2{color: red; text-shadow: 1px 1px 1px#000; font-size: 25px; line-height: 30px; text-align: center; margin-top: 30px; margin-bottom: 14px;}
+@media screen and (min-width: 480px) {.logo {width: 178px; background: url("../img/logo-240.png") center center/178px no-repeat;}
+img#bg-dark-3 { width: 100%;}}

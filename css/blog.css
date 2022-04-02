@@ -1,121 +1,20 @@
 @charset "UTF-8";
-/* stylelint-disable selector-list-comma-newline-after */
-#cgc {
-  float: right;
-}
-#cgc p {
-  font-size: 17px;
-}
-.blog-header {
-  line-height: 1;
-  border-bottom: 1px solid #e5e5e5;
-} 
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-}
-
-.display-4 {
-  font-size: 2.5rem;
-}
-
-@media (min-width: 768px) {
-  .display-4 {
-    font-size: 3rem;
-  }
-}
-
-.nav-scroller {
-  position: relative;
-  z-index: 2;
-  height: 2.75rem;
-  overflow-y: hidden;
-}
-
-.nav-scroller .nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
-  overflow-x: auto;
-  text-align: center;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-.nav-scroller .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: .875rem;
-}
-
-.card-img-right {
-  height: 100%;
-  border-radius: 0 3px 3px 0;
-}
-
-.flex-auto {
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.h-250 { height: 250px; }
-
-@media (min-width: 668px) {
-  .h-md-250 { height: 250px; }
-}
-
-@media (min-width: 368px) {
-  #blog-h1-hdi {font-size: 30px;}
-}
-
-
-/* Pagination */
-.blog-pagination {
-  margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-  border-radius: 2rem;
-}
-
-/*
- * Blog posts
- */
-.blog-post {
-  margin-bottom: 4rem;
-  text-align: justify;
-}
-.blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
-}
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
-}
-
-/*
- * Footer
- */
-
-footer {
-  /*background-color: #fff;*/
-  /*background: url("../img/jesus-o-cordeiro-e-o-leao-1.jpg") no-repeat;*/
-  width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#ff0000), to(#4c0d0d)) no-repeat;
-}
-
-#top-footer {
-  float: right; 
-  margin-right: 20px;
-  margin-left: 25px;
-}
-#degrade {
-    background: -webkit-gradient(linear, left top, right top, from(#ff0000), to(#4c0d0d)) no-repeat;
-}
-footer .row {
-  padding: 2%;
-  width: 100%;
-}
+.blog-header {line-height: 1; border-bottom: 1px solid #e5e5e5;} 
+h1, h2, h3, h4, h5, h6 {font-family: "Playfair Display", Georgia, "Times New Roman", serif;}
+.display-4 {font-size: 2.5rem;}
+/* PAGINATION */
+.blog-pagination {margin-bottom: 4rem;}
+.blog-pagination > .btn {border-radius: 2rem;}
+@media (min-width: 768px) {.display-4 {font-size: 3rem;}}
+.nav-scroller {position: relative; z-index: 2; height: 2.75rem; overflow-y: hidden;}
+.nav-scroller .nav {display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; padding-bottom: 1rem; margin-top: -1px; overflow-x: auto; text-align: center; white-space: nowrap; -webkit-overflow-scrolling: touch;}
+.nav-scroller .nav-link {padding-top: .75rem; padding-bottom: .75rem; font-size: .875rem;}
+.card-img-right {height: 100%; border-radius: 0 3px 3px 0;}
+.flex-auto {-ms-flex: 0 0 auto; flex: 0 0 auto;}
+.h-250 { height: 250px;}
+@media (min-width: 668px) {.h-md-250 { height: 250px;}}
+@media (min-width: 368px) { #blog-h1-hdi {font-size: 30px;}}
+/* BLOG POSTS */
+.blog-post {margin-bottom: 4rem; text-align: justify;}
+.blog-post-title {margin-bottom: .25rem; font-size: 2.5rem;}
+.blog-post-meta {margin-bottom: 1.25rem; color: #999;}
